@@ -63,7 +63,7 @@ while True:
     heap.person_push(person, severity)
     print(" {:<8} {}".format(sev[severity], person))
   elif option == 3:
-    if len(queue) != 0
+    if len(queue) != 0:
       while True:
         show_stats()
         print(" 1 – Processar a fila inteira automáticamente")
