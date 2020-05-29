@@ -69,7 +69,7 @@ while True:
         print(" 1 – Processar a fila inteira automáticamente")
         print(" 2 - Processar parte da fila automáticamente")
         print(" 3 - Processar uma pessoa manualmente")
-        print(" 4 - Saír")
+        print(" 4 - Voltar a tráz")
         option = get_option("> ", 4)
         if option == 1:
           while len(queue) != 0:
@@ -110,7 +110,7 @@ while True:
         show_stats()
         print(" 1 – Atender a fila de triagem inteira automáticamente")
         print(" 2 - Atender parte da fila de triagem automáticamente")
-        print(" 3 - Saír")
+        print(" 3 - Voltar a tráz")
         option = get_option("> ", 3)
         if option == 1:
           while len(heap) != 0:
